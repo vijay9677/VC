@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+ *{
+	margin: 0px;
+	padding:0px;
+	font-family: "Tangerine", Serif;
+} 
+body{
+background: url("../image/black-feather.jpg") no-repeat;
+background-size:100%; 
+color: white;
+
+background:teal;
+}   
+.content-wrapper{
+	width:100%;
+ }
+
+.testConnection-msg{
+	padding: 30px;
+}
+.status,.status-content{
+	float:left;
+}
+  .front-button:hover,.back-button:hover,.left-button:hover,.right-button:hover{
+	background-color: #49b67a;
+}
+.front-button,.back-button,.left-button,.right-button{
+	cursor:pointer;
+	height:100px;
+}
+.front-button{
+	width:100%;
+	display: block;
+	margin-bottom:30px; 
+}
+
+.left-button,.right-button{
+	width:40%;
+	margin-bottom:30px; 
+}
+.right-button{
+	float: right;
+}
+.back-button{
+	width:100%;
+	display: block;
+	margin-top:30px; 
+} 
+
+ .distance-msg{
+ float:left; 
+	width:20%;
+    height: 30px;/* 
+    overflow: scroll; */
+border-radius:5px;
+
+/* 
+position: fixed; */
+/* left:33%;
+ */
+ top:35%; 
+	box-shadow: 1px 1px 5px 8px;
+background-color: #0b2633;	
+padding:5px;
+margin-top: 30px;
+margin-left: 30px;
+}
+ .movement-wraper{
+ width:50%;
+ height:300px;
+ padding: 30px;
+ float: left;
+ }
+ #joystick{
+ width: 100%;
+ padding-left:40px;
+ 
+ }

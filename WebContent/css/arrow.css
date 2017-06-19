@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+a.up-arrow {
+	display: inline-block;
+	position: relative;
+	background: green;
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px;
+}
+a:hover.up-arrow {
+	background: brown;
+}
+a.up-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 20px;
+	bottom: 100%;
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid green;
+	border-top: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+}
+a:hover.up-arrow:after {
+	border-bottom-color: brown;
+}
